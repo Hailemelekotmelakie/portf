@@ -1,0 +1,91 @@
+.header-main{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+.n-left{
+    flex: 1;
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+}
+.myName{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.n-right{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+}
+.n-list{
+    flex: 10;
+}
+.ul-list-item{
+    display: flex;
+    display: inline;
+    gap: 2rem;
+}
+.n-list-item {
+    display: inline;
+    padding: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    list-style-type: none;
+    font-weight: 800;
+}
+.n-list-item:hover {
+    color: #fca61f;
+}
+.btn{
+    color: #000000;
+    background-color: #fca61f;
+    font-size: large;
+    display: block;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    margin-left: 3%;
+}
+.btn:hover{
+    box-shadow: 0px 0px 16px #fca61f;
+    background-color: #281f10;
+    color: white;
+    transition: 1s;
+    cursor: pointer;
+}
+.contact{
+    font-size: 20px;
+    font-weight: 650;
+    box-shadow: 0px 10px 10px #948e85;
+}
+.myName{
+    font-size: x-large;
+}
+.menu-icon-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.menu-icon{
+    width: 27px;
+    height: 5px;
+    background-color: black;
+    margin: 2px;
+    background-color: #fca61f;
+    border-radius: 3px;
+}
+.menu-icon-container:hover{
+       background-color: #f4e3cd;
+       transition: 0.5s;
+}
+@media screen and (max-width: 800px){
+    .n-right{
+        display: none;
+    }
+}
