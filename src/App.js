@@ -1,10 +1,10 @@
-import "./css/App.css";
-import Footer from "./repo/Footer";
-import Header from "./repo/Header";
-import Intro from "./repo/Intro";
-import Services from "./repo/Services";
-import Contact from "./repo/Contact";
-import Skills from "./repo/Skills";
+import './App.css';
+import Footer from './Footer/Footer';
+import Header from './Header/Header';
+import Intro from './Intro/Intro';
+import Services from './Services/Services';
+import Contact from './Contact/Contact';
+import Skills from './Skills/Skills';
 
 function App() {
   return (
@@ -14,9 +14,9 @@ function App() {
       <Services />
       <Skills />
       <Contact />
-      <Footer className="footer" />
+      <Footer className="footer"/>
     </div>
   );
 }
-
+ 
 export default App;
