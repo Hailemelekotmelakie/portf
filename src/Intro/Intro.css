@@ -1,0 +1,121 @@
+.intro-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 4rem;
+}
+
+.i-left {
+    display: flex;
+    position: relative;
+    /* flex: 1; */
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.i-right {
+    display: flex;
+    justify-content: space-evenly;
+
+    /* position: absolute; */
+    /* flex: 1; */
+
+}
+
+.icons {
+    width: 50px;
+    padding: 20px;
+}
+
+.img-responsive1 {
+    width: 310px;
+    height: 310px;
+    top: -400px;
+    left: 60px;
+    position: relative;
+    z-index: 1;
+}
+
+.img-responsive2 {
+    width: 400px;
+    height: 400px;
+    top: -40px;
+    left: 50px;
+    /* position: absolute; */
+    z-index: 1;
+}
+
+.i-name {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+
+.s-name {
+    font-size: 50px;
+    font-weight: 900;
+    color: #fca61f;
+    ;
+}
+
+.s-description {
+    font-size: 23px;
+    font-weight: 400;
+    color: #000000;
+    margin: 20px 20px 20px 0px;
+
+}
+
+.hire-me {
+    width: 30%;
+    align-items: center;
+    padding: 10px;
+    margin: 20px 20px 20px 0px;
+    box-shadow: 0px 20px 10px #fbc56f;
+    font-size: 20px;
+    font-weight: 900;
+    /* color: #000000; */
+}
+
+.i-blur1 {
+    position: absolute;
+    border-radius: 20px;
+    background-color: #000000;
+    background: #41f3ac;
+    width: 20rem;
+    height: 14rem;
+    right: -200px;
+    bottom: 40px;
+    filter: blur(135px);
+    z-index: -10;
+}
+#phoneNumbe{
+    font-size: 23px;
+}
+/* .i-blur2 {
+    position: absolute;
+    border-radius: 20px;
+    background-color: #000000;
+    background: #0a06fb;
+    width: 10rem;
+    height: 14rem;
+    right: -10px;
+    bottom: 200px;
+    filter: blur(135px);
+    z-index: -10;
+} */
+
+@media screen and (max-width: 800px) {
+    .intro-container {
+        flex-direction: column;
+    }
+    .img-responsive2, .img-responsive1{
+        transform: scale(0.7);
+    }
+    .i-blur1{
+        display: none;
+    }
+    .s-name{
+        font-size: 24px;
+    }
+}
