@@ -1,9 +1,11 @@
 body {
       margin: 0px 60px 0px 60px;
-      /* background-color: rgb(209, 216, 220); */
-      /* background-attachment: scroll; */
-      /* filter: blur(1px); */
+      background-color: rgb(209, 216, 220);
+      background-attachment: scroll;
+      filter: blur(0.1px);
 
-      /* background-image: url('./asset/images/Rect\ Wallpaper.jpg'); */
+      background-image: url('./asset/images/Rect\ Wallpaper.jpg');
+      background-color: #18212f;
+      color: #5e5b5b;
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
