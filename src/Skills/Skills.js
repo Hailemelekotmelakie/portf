@@ -1,9 +1,9 @@
-import React from "react";
-import './Skills.css';
+import React from 'react'
+import './Skills.css'
 
 class Skills extends React.Component {
-    render() {
-        return (
+  render () {
+    return (
           <div>
             <div className="Familier-languages">
               Languages what I am Familier with
@@ -64,10 +64,10 @@ class Skills extends React.Component {
                 </span>
               </div>
             </div>
-            <hr style={{ background: "#fca61f" }} />
+            <hr style={{ background: '#fca61f' }} />
           </div>
-        );
-    }
+    )
+  }
 }
 
-export default Skills;
+export default Skills

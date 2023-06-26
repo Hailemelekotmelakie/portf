@@ -1,26 +1,26 @@
-import React from "react";
-import Instagram from "../asset/images/Instagram.png";
-import Facebook from "../asset/images/facebook.png";
-import Linkdin from "../asset/images/linkedin.png";
-import MyPhoto from '../asset/images/transparncy.png';
-import BackgroundPhoto from '../asset/images/transparncy new.png';
+import React from 'react'
+import Instagram from '../asset/images/Instagram.png'
+import Facebook from '../asset/images/facebook.png'
+import Linkdin from '../asset/images/linkedin.png'
+import MyPhoto from '../asset/images/transparncy.png'
+import BackgroundPhoto from '../asset/images/transparncy new.png'
 // import MyPhoto from '../asset/images/transparncy new.png';
-import './Intro.css';
+import './Intro.css'
 
 class Intro extends React.Component {
-    render() {
-        function hireMe(){
-            document.getElementById('phoneNumbe').style.display='block';
-        }
-        return (
-          
+  render () {
+    function hireMe () {
+      document.getElementById('phoneNumbe').style.display = 'block'
+    }
+    return (
+
             <div className="intro-container">
                 <div className="i-left">
                     <div className="i-name">
                         <span className="s-name">I AM HAILEMELEKOT MELAKIE</span>
                         <span className="s-description"> I am a frontend and backend software developer.</span>
                         <button onClick={hireMe} className="btn hire-me">Hire_Me</button>
-                        <div style={{ display:"none"}} id="phoneNumbe"> Call To: +251 947 053 537</div>
+                        <div style={{ display: 'none' }} id="phoneNumbe"> Call To: +251 947 053 537</div>
                         <div className="i-blur1"></div>
                     </div>
                     <div className="s-m-icons">
@@ -37,7 +37,7 @@ class Intro extends React.Component {
                     </div>
                 </div>
             </div>
-        );
-    }
+    )
+  }
 }
-export default Intro;
+export default Intro

@@ -1,8 +1,8 @@
-import React from "react";
-import "./header.css";
+import React from 'react'
+import './header.css'
 
 class Header extends React.Component {
-  render() {
+  render () {
     return (
       <div>
         <div className="header-main">
@@ -28,10 +28,10 @@ class Header extends React.Component {
           </div>
         </div>
         <div>
-          <hr style={{ backgroundColor: "#fca61f", color: "white" }} />
+          <hr style={{ backgroundColor: '#fca61f', color: 'white' }} />
         </div>
       </div>
-    );
+    )
   }
 }
-export default Header;
+export default Header

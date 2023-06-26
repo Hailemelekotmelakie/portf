@@ -1,12 +1,13 @@
-import './App.css';
-import Footer from './Footer/Footer';
-import Header from './Header/Header';
-import Intro from './Intro/Intro';
-import Services from './Services/Services';
-import Contact from './Contact/Contact';
-import Skills from './Skills/Skills';
+import './App.css'
+import Footer from './Footer/Footer'
+import Header from './Header/Header'
+import Intro from './Intro/Intro'
+import Services from './Services/Services'
+import Contact from './Contact/Contact'
+import Skills from './Skills/Skills'
+import React from 'react'
 
-function App() {
+function App () {
   return (
     <div className="App">
       <Header />
@@ -14,9 +15,9 @@ function App() {
       <Services />
       <Skills />
       <Contact />
-      <Footer className="footer"/>
+      <Footer className="footer" />
     </div>
-  );
+  )
 }
- 
-export default App;
+
+export default App
