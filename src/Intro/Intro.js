@@ -1,16 +1,15 @@
-import React from "react";
-import Instagram from "../asset/images/Instagram.png";
-import Facebook from "../asset/images/facebook.png";
-import Linkdin from "../asset/images/linkedin.png";
-// import MyPhoto from '../asset/images/transparncy.png'
-import BackgroundPhoto from "../asset/images/transparncy new.png";
+import React from "react"
+import Instagram from "../asset/images/Instagram.png"
+import Facebook from "../asset/images/facebook.png"
+import Linkdin from "../asset/images/linkedin.png"
+import BackgroundPhoto from "../asset/images/transparncy new.png"
 // import MyPhoto from '../asset/images/transparncy new.png';
-import "./Intro.css";
+import "./Intro.css"
 
 class Intro extends React.Component {
-  render() {
-    function hireMe() {
-      document.getElementById("phoneNumbe").style.display = "block";
+  render () {
+    function hireMe () {
+      document.getElementById("phoneNumbe").style.display = "block"
     }
     return (
       <div className="intro-container">
@@ -53,7 +52,7 @@ class Intro extends React.Component {
           </div>
         </div>
       </div>
-    );
+    )
   }
 }
-export default Intro;
+export default Intro
